@@ -99,6 +99,10 @@ create table aluguel_carros
     SELECT modelo from carros
     WHERE id=4;
 
+    -- Quais clientes tem silva no nome
+    SELECT CPF,nome FROM clientes
+    WHERE nome LIKE '%silva%';
+
 
 
 
